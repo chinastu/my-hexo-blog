@@ -5,6 +5,9 @@ sudo: false
 node_js: 
   - "7.10.0"
 
+before_install:
+  - export TZ='Asia/Shanghai'
+
 cache:
   apt: true
   directories:
@@ -19,7 +22,14 @@ script:
   - hexo clean 
   - hexo generate
 
-dist: trusty
+deploy:
+  provider: script
+  script: sh .travis/deploy.sh
+  skip_cleanup: true
+  on:
+    branch: master
+
+dist: precise
 
 branches:
   only:
