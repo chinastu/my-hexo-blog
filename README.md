@@ -14,3 +14,7 @@ hexo-cli: 1.0.3
 node: 7.10.0
 ```
 
+效果如下：
+
+![my-hexo-blog1](http://7xi700.com1.z0.glb.clouddn.com/my-hexo-blog2.png-alias)
+
