@@ -113,7 +113,7 @@ image_minifier:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  message: 'Update CNZZ analytics key.'
+  #message: 'Update CNZZ analytics key.'
   repository:
     coding: git@git.coding.net:lisenhui/lisenhui.git,master
     oschina: git@git.oschina.net:lisenhui/lisenhui.git,master
