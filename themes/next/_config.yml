@@ -236,7 +236,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night bright
 
 
 # ---------------------------------------------------------------
@@ -303,7 +303,8 @@ han:
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: 62c81b4e91c30f2305d5e590dacbe192
+# baidu_analytics: 62c81b4e91c30f2305d5e590dacbe192
+baidu_analytics: d6ffa4cd9a3f73f6e5a0078dc4466fcc
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -361,7 +362,8 @@ local_social_share: true
 #yandex_site_verification:
 
 # CNZZ count
-cnzz_siteid: 1263207327
+# cnzz_siteid: 1263207327
+cnzz_siteid: 1263609085
 
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/

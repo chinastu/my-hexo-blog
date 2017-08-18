@@ -9,7 +9,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://lisenhui.coding.me/
+url: https://www.李森辉.cn/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -84,7 +84,7 @@ theme: next
 
 # Html minifier
 html_minifier:
-  enable: false
+  enable: true
   ignore_error: false
   exclude:
 
@@ -113,7 +113,7 @@ image_minifier:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  message: 'Update 404 page support https.'
+  message: 'Update CNZZ analytics key.'
   repository:
     coding: git@git.coding.net:lisenhui/lisenhui.git,master
     oschina: git@git.oschina.net:lisenhui/lisenhui.git,master

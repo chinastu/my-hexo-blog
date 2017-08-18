@@ -79,13 +79,7 @@ git clone https://git.oschina.net/lisenhui/my-hexo-blog.git
 欢迎各位拍砖和鲜花<i class="fa fa-thumbs-o-up" aria-hidden="true"></i><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
 
 
-> 参考文章：
-> 1. [Hexo常用命令](https://segmentfault.com/a/1190000002632530)
-> 2. [leanCloud,实现文章阅读量统计](http://www.joryhe.com/2016-05-29-how_to_create_leancloud_read_Counter.html)
-> 3. [Hexo+Next主题博客提交百度谷歌收录](http://blog.csdn.net/hosea1008/article/details/53384382)
-> 4. [使用Hexo + Next搭建静态博客](http://www.jianshu.com/p/f66103553c45)
-
-{% cq %} 
+{% note info %} 
 实际上`Hexo`博客的搭建只需要如下几步：
 
 1. npm install -g hexo-cli
@@ -96,4 +90,10 @@ git clone https://git.oschina.net/lisenhui/my-hexo-blog.git
 6. vi _config.yml (change theme: next)
 7. hexo g && hexo s (打开浏览器输入: http://127.0.0.1:4000)
 
-{% endcq %} 
+{% endnote %} 
+
+参考文章：
+1. [Hexo常用命令](https://segmentfault.com/a/1190000002632530)
+2. [leanCloud,实现文章阅读量统计](http://www.joryhe.com/2016-05-29-how_to_create_leancloud_read_Counter.html)
+3. [Hexo+Next主题博客提交百度谷歌收录](http://blog.csdn.net/hosea1008/article/details/53384382)
+4. [使用Hexo + Next搭建静态博客](http://www.jianshu.com/p/f66103553c45)
