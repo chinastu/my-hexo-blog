@@ -11,12 +11,16 @@ cache:
     - node_modules
 
 addons:
-  ssh_known_hosts: git.coding.net
+  ssh_known_hosts: 
+    - git.coding.net
+    - git.oschina.net
 
 script:
   - hexo clean 
   - hexo generate
-  
+
+dist: trusty
+
 branches:
   only:
     - master
