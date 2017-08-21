@@ -18,3 +18,28 @@ node: 7.10.0
 
 ![my-hexo-blog1](http://7xi700.com1.z0.glb.clouddn.com/my-hexo-blog1.png-alias)
 
+
+# 七牛云存储
+
+下载同步工具：[qshell](https://developer.qiniu.com/sdk#official-tool)
+
+```
+# 1. 设置密钥
+qshell account ak sk
+
+# 2. 创建目录，上传的图片拷贝至此
+mkdir -p tools/qiniu
+
+# 3. 修改_qiniu.json.sample为_qiniu.json
+mv tools/_qoniu.json.sample tools/_qiniu.json
+vi tools/_qiniu.json (修改空间的名称)
+
+# 4. 执行qupload.sh脚本同步
+qupload.sh
+
+```
+
+输出日志如下：
+
+![my-hexo-blog2](http://7xi700.com1.z0.glb.clouddn.com/my-hexo-blog2.png-alias)
+

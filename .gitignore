@@ -5,3 +5,7 @@ db.json
 node_modules/
 public/
 .deploy*/
+qshell
+qiniu/
+_qiniu.json
+cdnrefresh.txt
