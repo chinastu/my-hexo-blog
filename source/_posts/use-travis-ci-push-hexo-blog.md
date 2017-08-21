@@ -166,7 +166,7 @@ Hooray, .travis.yml looks valid :)
 脚本内容参考如下：
 
 ```
-!/bin/bash
+#!/bin/bash
 # Decrypt the private SSH key
 openssl aes-256-cbc -K $encrypted_c9744fe6174f_key -iv $encrypted_c9744fe6174f_iv -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
 
