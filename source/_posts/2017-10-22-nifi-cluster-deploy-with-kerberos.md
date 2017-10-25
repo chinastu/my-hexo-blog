@@ -12,6 +12,8 @@ categories:
 
 ![](http://7xi700.com1.z0.glb.clouddn.com/Apache%20NiFi-01.png-alias)
 
+<!-- more -->
+
 - 系统环境及软件版本 (其它版本可参考此篇文章)
 
   CentOS7
