@@ -1,6 +1,6 @@
 ---
 title: Apache Nifi集群搭建及用kerberos实现用户认证
-date: 2017-10-24 11:42:29
+date: 2017-10-22 11:42:29
 tags:
   - 大数据
   - Nifi
