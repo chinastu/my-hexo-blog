@@ -305,8 +305,6 @@ categories:
     </provider>
     ```
 
-
-
 - 五、启动NIFI服务
 
   先启动主节点的NIFI，而后启动从节点的NIFI，执行命令`./bin/nifi.sh start`， 然后打开浏览器输入`https://centos7-master:9443/nifi/`便会跳转到登录页面，输入在第1步骤创建的用户与密码，即可登录成功。界面显示如下：
@@ -317,17 +315,11 @@ categories:
 
   如上面两图显示，在界面的左上角可以清楚的看到当前节点数为2，用户为**root/admin@CENTOS7-MASTER.COM**，其中`centos7-master`是协调器，`centos7-cluster01`是主要节点，主菜单中也增加有了`Cluster`，`User`和`Policies`选项。
 
-
-
 至此`Apache NIFI`的集群服务与用户认证便完成好啦，后面便可开展下一步的工作。
 
-
-
-> 遇到的坑：
->
+> *遇到的坑：*
 > - 首次登录时提示用户名或密码无效，可通过kadmin更新用户的密码
 > - 登录成功后提示用户没有对应的策略，重启NIFI服务即可
-
 
 
 引用参考
@@ -336,7 +328,6 @@ categories:
 - [Nifi-搭建](http://blog.csdn.net/sinat_34233802/article/details/68942176?locationNum=1&fps=1)
 - [kerberos认证原理---讲的非常细致，易懂](http://blog.csdn.net/wulantian/article/details/42418231)
 - [Kerberos 基本安装与配置](http://blog.csdn.net/post_yuan/article/details/54406148)
-
 
 
 **收到的赏金**
