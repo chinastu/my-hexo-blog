@@ -332,10 +332,8 @@ categories:
 
 引用参考
 
-- [Nifi-搭建](http://blog.csdn.net/sinat_34233802/article/details/68942176?locationNum=1&fps=1)
-
-
 - [nifi-security-user-authentication-with-kerberos.html](https://community.hortonworks.com/articles/34147/nifi-security-user-authentication-with-kerberos.html)
+- [Nifi-搭建](http://blog.csdn.net/sinat_34233802/article/details/68942176?locationNum=1&fps=1)
 - [kerberos认证原理---讲的非常细致，易懂](http://blog.csdn.net/wulantian/article/details/42418231)
 - [Kerberos 基本安装与配置](http://blog.csdn.net/post_yuan/article/details/54406148)
 
