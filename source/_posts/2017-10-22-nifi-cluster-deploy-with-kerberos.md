@@ -33,7 +33,7 @@ categories:
 
 ![zero-master-cluster-http-access.png](https://nifi.apache.org/docs/nifi-docs/html/images/zero-master-cluster-http-access.png)
 
-- 一、 搭建Kerberos5服务
+- 一、搭建Kerberos5服务
 
   - 1.1 主节点安装KDC服务及配置
 
@@ -163,7 +163,7 @@ categories:
 
     - 1.2.2 拷贝**root.keytab**到`/data/root.keytab`目录
 
-- 二、 创建Nifi服务证书
+- 二、创建Nifi服务证书
 
   - 2.1 解压`nifi-toolkit-1.4.0-bin.tar.gz`文件后进入`bin`目录，执行以下的命令：
 
@@ -197,7 +197,7 @@ categories:
     [root@centos7-master target]# cp target/centos7-master/* /usr/local/bin/nifi-ncm/conf/
     ```
 
-- 三、 配置Zookeeper服务(**主从节点都需要操作**)
+- 三、配置Zookeeper服务(**主从节点都需要操作**)
 
   - 3.1 在NIFI安装目录下创建`state/zookeeper`目录和`myid`文件
 
@@ -265,7 +265,7 @@ categories:
     nifi.zookeeper.root.node=/nifi
     ```
 
-- 四、 配置Nifi Admin初始化
+- 四、配置Nifi Admin初始化
 
   - 4.1 修改`nifi.properties`文件，把`kerberos5`的登录适配加上，如下：
 
