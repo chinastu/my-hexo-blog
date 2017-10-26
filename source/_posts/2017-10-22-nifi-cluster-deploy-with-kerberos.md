@@ -338,3 +338,12 @@ categories:
 - [nifi-security-user-authentication-with-kerberos.html](https://community.hortonworks.com/articles/34147/nifi-security-user-authentication-with-kerberos.html)
 - [kerberos认证原理---讲的非常细致，易懂](http://blog.csdn.net/wulantian/article/details/42418231)
 - [Kerberos 基本安装与配置](http://blog.csdn.net/post_yuan/article/details/54406148)
+
+
+
+**收到的赏金**
+*感谢各位的慷慨解囊!*
+
+| 昵称 | 来源 | 金额(元) | 留言 |
+| :---: | :---: | :---: | :---: |
+| 林俗人 | 微信 | 2 | 感谢博主，感谢分享! |
