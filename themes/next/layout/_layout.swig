@@ -46,7 +46,7 @@
         {% include '_partials/footer.swig' %}
         {% include '_third-party/analytics/analytics-with-widget.swig' %}
         <p style="margin:0">Hosted by <a href="https://pages.coding.me" style="font-weight:700" target="_blank">Coding Pages</a> | <a href="https://gitee.com" style="font-weight:700" target="_blank">OSChina Pages</a></p>
-        <p>Storage by <a href="https://www.qiniu.com" style="font-weight:700" target="_blank">七牛云存储</a></p>
+        <p>Storage by <a href="https://www.qiniu.com" style="font-weight:700" target="_blank">七牛云存储</a> | <a href="https://www.beian.gov.cn" target="_blank">粤ICP备18047355号</a></p>
         {% block footer %}{% endblock %}
       </div>
     </footer>
